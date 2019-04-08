@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    height:100%;
+    width: 100%;
+}
+kbd {
+    padding: .2rem .4rem;
+    font-size: 87.5%;
+    color: #fff;
+    background-color: #212529;
+    border-radius: .2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#colonneGauche {
+    position: relative;
+    height : 100%;
+    width: 30%;
+    float: left;
+}
+#titre {
+    height: 5%;
+    vertical-align: middle;
+    text-align: center;
+    background: #16a085;
+    color: white;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#menu {
+    position: relative;
+    height: 95%;
+}
+#menuAction, #menuAppearence {
+    position: relative;
+    width: 100%;
+}
+#menuAction {
+    background : #f1c40f;
+    height: 65%;
+}
+#menuAppearence {
+    padding: 10px 10% 10px;
+    background : #e67e22;
+    height: 35%;
+}
+button, input {
+    height: 10%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+input {
+    width: 90%;
+    margin-left: 5%;
+}
+button {
+    width: 46%;
+    margin-left: 2%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 10px 20px 10px;
+    background: #f1c40f;
+    border: #e67e22 solid 5px;
+    transition: all 0.3s;
+    text-align: left;
+}
+
+button:hover {
+    background: white;
+    border: white;
+    color: #f1c40f;
+}
+.selected {
+    background: white;
+    border: white;
+    color: #f1c40f;
+    outline: none;
+}
+svg {
+    position: relative;
+    height: 100%;
+    width: 70%;
+}
+#coordinates {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5px 10px;
+    background: black;
+    color: white;
+}
+#currentShape {
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    padding: 5px 10px;
+    background: black;
+    color: white;
+}

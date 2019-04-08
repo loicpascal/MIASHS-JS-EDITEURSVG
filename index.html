@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Editeur de SVG</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="colonneGauche">
+        <div id="titre">
+            <h1>Editeur de SVG</h1>
+        </div>
+        <div id="menu">
+            <div id="menuAction">
+                <h2>Formes</h2>
+                <button id="bCarr"><kbd>P</kbd> Carré</button>
+                <button id="bRect"><kbd>R</kbd> Rectangle</button>
+                <button id="bCirc"><kbd>C</kbd> Cercle</button>
+                <button id="bElli"><kbd>E</kbd> Ellipse</button>
+                <button id="bSegm"><kbd>L</kbd> Ligne</button>
+                <button id="bText"><kbd>T</kbd> Texte</button>
+                <h2>Actions</h2>
+                <button id="bMove"><kbd>D</kbd> Déplacer</button>
+                <button id="bSele"><kbd>S</kbd> Sélectionner</button>
+                <button id="bDele"><kbd>Suppr</kbd> Supprimer</button>
+            </div>
+            <div id="menuAppearence">
+                <h2>Apparence</h2>
+
+                <kbd>Ctrl + R</kbd> <label for="iFillColor">Remplissage</label>
+                <input type="color" id="iFillColor" name="iFillColor">
+
+                <br><label for="iFillColor"><kbd>Ctrl + C</kbd> Contour</label>
+                <input type="color" id="iStrokeColor" name="iStrokeColor" value="#FF0000">
+
+                <br><label for="iFillColor">Taille</label>
+                <input type="range" id="iStrokeWidth" name="iStrokeWidth" min="0" max="20" value="2">
+            </div>
+        </div>
+    </div>
+    <svg id="shapeSVG" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="80%"></svg>
+    <div id="currentShape"></div>
+    <div id="coordinates">X = 0, Y = 0</div>
+    <script src="script.js"></script>
+</body>
+</html>
