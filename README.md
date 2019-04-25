@@ -17,4 +17,4 @@ Avant de créer une forme, il est possible des changer les paramètres suivants 
 * Taille des traits
 
 Enfin, il est possible de déplacer `D` et de supprimer `SUPPR` des formes.
-Pour supprimer une forme, sélectionnez-là `S` d'abord puis supprimez-là.
+Pour supprimer une forme, sélectionnez-là `S` d'abord puis supprimez-là `SUPPR`.
